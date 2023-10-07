@@ -166,7 +166,7 @@ const Footer = () => {
               </div>
             </ScrollLink>
             <ScrollLink
-              to="whatWeAre"
+              to="abouts"
               spy={true}
               smooth={true}
               offset={50}
@@ -183,7 +183,7 @@ const Footer = () => {
             </ScrollLink>
 
             <ScrollLink
-              to="staking"
+              to="specialoffers"
               spy={true}
               smooth={true}
               offset={50}
@@ -200,7 +200,7 @@ const Footer = () => {
             </ScrollLink>
 
             <ScrollLink
-              to="whatWeAre"
+              to="service"
               spy={true}
               smooth={true}
               offset={50}
@@ -249,7 +249,7 @@ const Footer = () => {
           </div>
           <div className="  col-span-1 flex flex-col gap-3">
             <h2 className=" font-bold text-lg ">Get In Touch</h2>
-            <Link to="contact">
+            <Link to="mailto:intellsignals.entertainment@gmail.com">
               <div className="relative inline-block group">
                 <span className="text-gr1 font-semibold relative z-10 group-hover:text-red-500">
                   Contact Us
@@ -376,10 +376,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="relative w-full">
-          <p className="text-white">@copyright2023 IntellSignals.com</p>
+          <p className="text-white text-center">@copyright2023 IntellSignals.com</p>
           <p
             onclick={() => window.open("https://codezoone.netlify.app/")}
-            class="text-xs bg-slate-900 p-1 px-2 rounded-3xl relative md:absolute right-0 md:right-4 hover:cursor-pointer hover:font-bold hover:bg-secondary hover:scale-x-105 hover:duration-300"
+            class="text-xs -mt-4 bg-slate-900 p-1 px-2 rounded-3xl relative md:absolute right-0 md:right-4 hover:cursor-pointer hover:font-bold text-center text-white hover:bg-secondary hover:scale-x-105 hover:duration-300"
           >
             Developed By CodeZone
           </p>

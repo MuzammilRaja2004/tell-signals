@@ -34,7 +34,7 @@ export const ALL_PACKAGES = [
     price: 99,
     name: "Month",
     description:
-      "Experience unlimited elite crypto signals and personalized coaching in our VIP Telegram channel.",
+      "Experience elite crypto signals and personalized coaching in our VIP channel.",
     numOfDays: 30,
     numOfSignals: null,
     features: [

@@ -354,7 +354,7 @@ const Plans = () => {
           <div className="relative py-4 flex flex-col bg-gradient-to-r from-orange-400 to-red-500  rounded-xl shadow-2xl w-3/4 md:w-1/4 opacity-90 hover:opacity-100 hover:scale-105 transition duration-300 ease-in">
             <div className="flex flex-col  w-full  mx-6  ">
               <p className="font-bold">
-                {`${ALL_PACKAGES[2].price} / ${ALL_PACKAGES[2].name}`}
+                {`${ALL_PACKAGES[2].type} / ${ALL_PACKAGES[2].name}`}
               </p>
               <div className="flex flex-row ">
                 <h3 className="text-white text-4xl font-bold ">
