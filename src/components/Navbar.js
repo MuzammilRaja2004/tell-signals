@@ -43,7 +43,7 @@ const Nav = () => {
                   to="abouts"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-120}
                   duration={500}
                   onSetActive={this?.handleSetActive}
                   className="w-full"
@@ -61,7 +61,7 @@ const Nav = () => {
                   to="whatWeAre"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-120}
                   duration={500}
                   onSetActive={this?.handleSetActive}
                 >
@@ -77,7 +77,7 @@ const Nav = () => {
             to="staking"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-50}
             duration={500}
             onSetActive={this?.handleSetActive}
           >
@@ -92,7 +92,7 @@ const Nav = () => {
             to="specialoffers"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-50}
             duration={500}
             onSetActive={this?.handleSetActive}
           >
@@ -107,7 +107,7 @@ const Nav = () => {
             to="home"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-50}
             duration={500}
             onSetActive={this?.handleSetActive}
           >
@@ -122,7 +122,7 @@ const Nav = () => {
             to="footer"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-50}
             duration={500}
             onSetActive={this?.handleSetActive}
           >
@@ -146,7 +146,7 @@ const Nav = () => {
             to="introToAI"
             activeClass="active"
             smooth={true}
-            offset={50}
+            offset={-50}
             duration={500}
             onSetActive={this?.handleSetActive}
           >
@@ -229,7 +229,7 @@ const Nav = () => {
                 to="abouts"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={-50}
                 duration={500}
                 onSetActive={this?.handleSetActive}
                 className="w-full"
@@ -248,7 +248,7 @@ const Nav = () => {
                 to="whatWeAre"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={-50}
                 duration={500}
                 onSetActive={this?.handleSetActive}
                 onClick={openfun}
@@ -265,7 +265,7 @@ const Nav = () => {
           to="staking"
           spy={true}
           smooth={true}
-          offset={50}
+          offset={-50}
           duration={500}
           onSetActive={this?.handleSetActive}
           onClick={openfun}
@@ -281,7 +281,7 @@ const Nav = () => {
           to="specialoffers"
           spy={true}
           smooth={true}
-          offset={50}
+          offset={-50}
           duration={500}
           onSetActive={this?.handleSetActive}
           onClick={openfun}
@@ -297,7 +297,7 @@ const Nav = () => {
           to="home"
           spy={true}
           smooth={true}
-          offset={50}
+          offset={-50}
           duration={500}
           onSetActive={this?.handleSetActive}
           onClick={openfun}
@@ -313,7 +313,7 @@ const Nav = () => {
           to="footer"
           spy={true}
           smooth={true}
-          offset={50}
+          offset={-50}
           duration={500}
           onSetActive={this?.handleSetActive}
           onClick={openfun}
@@ -338,7 +338,7 @@ const Nav = () => {
           to="introToAI"
           activeClass="active"
           smooth={true}
-          offset={50}
+          offset={-50}
           duration={500}
           onSetActive={this?.handleSetActive}
           onClick={openfun}

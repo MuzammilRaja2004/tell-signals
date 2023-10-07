@@ -3,6 +3,7 @@ const IntelligentSignalsToken = () => {
     <div
       id="howitwork"
       className="flex flex-col items-center rounded w-full"
+      data-aos="zoom-in"
       style={{ backgroundImage: "url('/img/b1.jpg')" }}
     >
       <h1 className="  font-semibold pb-8   leading-snug text-center text-3xl md:text-[42px] text-gray-100 w-8/12 pt-10   ">

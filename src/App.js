@@ -17,7 +17,15 @@ import UnderDevelopment from "./pages/UnderDevelopment";
 import ActivePackage from "./pages/ActivePackage";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import OTP from "./pages/OTP";
+//import 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <>
       <BrowserRouter>

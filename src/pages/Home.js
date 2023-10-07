@@ -41,8 +41,10 @@ const Home = () => {
       <div
         className="flex flex-col items-center mt-20 mb-4 lg:flex-row w-full min-h-full lg:min-h-screen"
         id="home"
+        data-aos="fade-right"
+        
       >
-        <div className=" w-3/4 lg:w-1/2  lg:pl-32  bg-gr flex flex-col gap-4 justify-center items-center lg:items-stretch">
+        <div className=" w-3/4 lg:w-1/2  lg:pl-32  bg-gr flex flex-col gap-4 justify-center items-center lg:items-stretch" >
           <h1 className="custom-mini-heading mb-3">
             <span className="text-white">INSIG </span>
             <span className="text-white">TOKEN.</span>{" "}
@@ -77,7 +79,7 @@ const Home = () => {
             </span>
           </button>
         </div>
-        <div className="flex justify-center w-3/4 lg:w-1/2 pt-8 lg:pr-2  ">
+        <div className="flex justify-center w-3/4 lg:w-1/2 pt-8 lg:pr-2">
           <img
             src="/img/hero.png"
             alt="a"

@@ -4,6 +4,7 @@ const IntroductiontoAI = ({ handleRoute }) => {
   return (
     <div
       id="introToAI"
+      data-aos="fade-right"
       className="  bg-white min-h-screen w-full flex flex-col items-center "
     >
     <div className="w-full h-full">

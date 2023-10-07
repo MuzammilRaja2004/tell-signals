@@ -3,6 +3,8 @@ const WhatAreInsig = () => {
     <div
       id="whatWeAre"
       className="flex flex-col  items-center mt-10 lg:flex-row  w-full  max-w-6xl min-h-full lg:min-h-screen"
+      data-aos="fade-up"
+     data-aos-anchor-placement="center-center"
     >
       <div className="w-2/3 flex justify-center lg:w-1/2 py-8 lg:pl-8">
         <img

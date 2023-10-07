@@ -4,6 +4,7 @@ const IntelligentSignalEcosystem = () => {
       className="min-h-screen bg-cover w-full flex justify-center "
       id="performance"
       style={{ backgroundImage: "url('/img/b5.jpg')" }}
+      data-aos="fade-up-right"
     >
       {/* <ParticlesBackground /> */}
       {/* <div className="-z-10"> */}

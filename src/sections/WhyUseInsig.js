@@ -118,6 +118,7 @@ const WhyUseInsig = () => {
       className="flex w-full flex-col text-center md:text-left mb-24 items-center px-4 py-12 bg-cover rounded"
       style={{ backgroundImage: "url('/img/b2.jpg')" }}
       id="about"
+      // data-aos="fade-left"
     >
       <h1 className="custom-mini-heading text-white mb-3">
         Why use Intelligent{" "}

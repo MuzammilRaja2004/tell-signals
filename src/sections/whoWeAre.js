@@ -4,6 +4,7 @@ const WhoWeAre = () => {
   return (
     <div
       id="abouts"
+      data-aos="fade-right"
       class="text-center bg-black p-6 md:p-10 mt-10 rounded-2xl shadow-lg md:mb-20 mb-0 max-w-6xl mx-auto"
     >
       <h1 class="custom-mini-heading text-white mb-6">

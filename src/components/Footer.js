@@ -154,7 +154,7 @@ const Footer = () => {
               to="home"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-50}
               duration={500}
               onSetActive={this?.handleSetActive}
             >
@@ -169,7 +169,7 @@ const Footer = () => {
               to="abouts"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-120}
               duration={500}
               onSetActive={this?.handleSetActive}
               className="w-full"
@@ -186,7 +186,7 @@ const Footer = () => {
               to="specialoffers"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-50}
               duration={500}
               onSetActive={this?.handleSetActive}
               className="w-full"
@@ -203,7 +203,7 @@ const Footer = () => {
               to="service"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-50}
               duration={500}
               onSetActive={this?.handleSetActive}
               className="w-full"
@@ -232,7 +232,7 @@ const Footer = () => {
               to="specialoffers"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-50}
               duration={500}
               onSetActive={this?.handleSetActive}
               className="w-full"
@@ -261,7 +261,7 @@ const Footer = () => {
               to="faq"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-50}
               duration={500}
               onSetActive={this?.handleSetActive}
               className="w-full"
@@ -379,7 +379,7 @@ const Footer = () => {
           <p className="text-white text-center">@copyright2023 IntellSignals.com</p>
           <p
             onclick={() => window.open("https://codezoone.netlify.app/")}
-            class="text-xs -mt-4 bg-slate-900 p-1 px-2 rounded-3xl relative md:absolute right-0 md:right-4 hover:cursor-pointer hover:font-bold text-center text-white hover:bg-secondary hover:scale-x-105 hover:duration-300"
+            class="text-xs -mt-4 font-bold bg-secondary p-1 px-2 rounded-3xl relative md:absolute right-0 md:right-4 hover:cursor-pointer hover:font-bold text-center hover:bg-secondary hover:scale-x-105 hover:duration-300"
           >
             Developed By CodeZone
           </p>

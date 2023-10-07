@@ -5,11 +5,18 @@ const VideoSection = ({ handleRoute }) => {
     <div
       className="py-12 flex flex-col items-center w-full h-auto lg:min-h-screen"
       id="service"
+      data-aos="fade-up"
+     data-aos-duration="3000"
     >
       <div className=" bg-gradient-to-r from-orange-400 to-red-500 w-4/5 md:w-2/3 rounded-t-lg flex justify-center">
         <div className="py-6 px-4 w-full flex flex-col lg:flex-row justify-around items-center">
           <button
-            onClick={handleRoute}
+          onClick={() =>
+            window.open(
+              "https://www.coinstore.com/#/spot/INSIGUSDT"
+            )
+          }
+            // onClick={handleRoute}
             className=" rounded-full px-5 py-2 md:w-auto w-full md:my-auto my-3 overflow-hidden relative group cursor-pointer font-semibold text-lg bg-[#0061ff] text-black hover:scale-95 transition duration-300 ease-in-out "
           >
             <span className="absolute w-64 h-0 transition-all duration-[700ms] origin-center rotate-45 -translate-x-20 bg-gray-800 top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
