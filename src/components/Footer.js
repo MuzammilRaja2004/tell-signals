@@ -362,15 +362,21 @@ const Footer = () => {
       </div>
       <div className="flex flex-col items-center w-full  pt-8  pb-3 bg-gr2 gap-y-4 ">
         <div className="flex items-center gap-4">
+          <a href="https://web.whatsapp.com/">
           <div className="bg-white p-2 rounded-full cursor-pointer hover:scale-125 transition-all duration-700">
             <img src="/img/wa.png" alt="home" className="w-5 h-5" />
           </div>
+          </a>
+          <a href="https://www.linkedin.com/feed/update/urn:li:activity:7080135501327863809">
           <div className="bg-white p-2 rounded-full cursor-pointer hover:scale-125 transition duration-700">
             <img src="/img/li.png" alt="home" className="w-5 h-5" />
           </div>
+          </a>
+          <a href="mailto:intellsignals.entertainment@gmail.com">
           <div className="bg-white p-2 rounded-full cursor-pointer hover:scale-125 transition duration-700">
             <img src="/img/gm.png" alt="home" className="w-5 h-5" />
           </div>
+          </a>
           <div className="bg-white p-2 rounded-full cursor-pointer hover:scale-125 transition duration-700">
             <img src="/img/tp.png" alt="home" className="w-5 h-5" />
           </div>
@@ -381,7 +387,7 @@ const Footer = () => {
             onclick={() => window.open("https://codezoone.netlify.app/")}
             class="text-xs -mt-4 font-bold bg-secondary p-1 px-2 rounded-3xl relative md:absolute right-0 md:right-4 hover:cursor-pointer hover:font-bold text-center hover:bg-secondary hover:scale-x-105 hover:duration-300"
           >
-            Developed By CodeZone
+            <a href="https://codezoone.netlify.app/" target="_blank">Developed By CodeZone</a>
           </p>
         </div>
       </div>

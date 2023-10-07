@@ -196,7 +196,7 @@ const Nav = () => {
         <div className="flex ml-auto">
           <button className="hidden mr-2 xl:block rounded-lg px-4 py-1 overflow-hidden relative group cursor-pointer border-2 font-semibold text-[15px] border-orange-400 text-white hover:scale-105 duration-[700ms]">
             <span className="absolute w-64 h-0 transition-all duration-[700ms] origin-center rotate-45 -translate-x-20 bg-orange-400 top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
-            <span className="h-full w-full flex items-center relative text-orange-400 transition duration-[700ms] group-hover:text-white ease pt-1">
+            <span className="h-full w-full flex items-center relative text-orange-400 transition duration-[700ms] group-hover:text-white ease pt-2">
               <a
                 href="https://www.coinstore.com/#/spot/INSIGUSDT"
                 target="_blank"
