@@ -58,10 +58,7 @@ const Footer = () => {
   };
 
   return (
-    <footer
-      id="footer"
-      className="bg-black pt-6 w-full flex flex-col items-center"
-    >
+    <footer className="bg-black pt-6 w-full flex flex-col items-center">
       <div className="bg-black px-4 w-full max-w-5xl flex flex-col items-center">
         <div
           id="contactUs"
@@ -147,7 +144,10 @@ const Footer = () => {
           </form>
         </div>
 
-        <div className="py-10 px-2 w-full  border-b border-gr1 grid lg:grid-cols-4 grid-cols-2 gap-4 text-white">
+        <div
+          id="footer"
+          className="py-10 px-2 w-full  border-b border-gr1 grid lg:grid-cols-4 grid-cols-2 gap-4 text-white"
+        >
           <div className="col-span-1 flex flex-col gap-3">
             <h2 className="font-bold text-lg">Learn</h2>
             <ScrollLink
@@ -193,7 +193,7 @@ const Footer = () => {
             >
               <div className="relative inline-block group">
                 <span className="text-gr1 font-semibold relative z-10 group-hover:text-red-500">
-                Sevices
+                  Sevices
                 </span>
                 <div className="absolute inset-x-0 bottom-0 h-[2px] bg-gradient-to-r from-orange-400 to-red-500 transform origin-left scale-x-0 transition-transform ease-out duration-300 group-hover:scale-x-100"></div>
               </div>
@@ -210,12 +210,11 @@ const Footer = () => {
             >
               <div className="relative inline-block group">
                 <span className="text-gr1 font-semibold relative z-10 group-hover:text-red-500">
-                How It Works
+                  How It Works
                 </span>
                 <div className="absolute inset-x-0 bottom-0 h-[2px] bg-gradient-to-r from-orange-400 to-red-500 transform origin-left scale-x-0 transition-transform ease-out duration-300 group-hover:scale-x-100"></div>
               </div>
             </ScrollLink>
-
           </div>
           <div className="  col-span-1 flex flex-col gap-3">
             <h2 className="  font-bold text-lg">Quick Links</h2>
@@ -239,13 +238,11 @@ const Footer = () => {
             >
               <div className="relative inline-block group">
                 <span className="text-gr1 font-semibold relative z-10 group-hover:text-red-500">
-                Special Offers
+                  Special Offers
                 </span>
                 <div className="absolute inset-x-0 bottom-0 h-[2px] bg-gradient-to-r from-orange-400 to-red-500 transform origin-left scale-x-0 transition-transform ease-out duration-300 group-hover:scale-x-100"></div>
               </div>
             </ScrollLink>
-
-
           </div>
           <div className="  col-span-1 flex flex-col gap-3">
             <h2 className=" font-bold text-lg ">Get In Touch</h2>
@@ -268,7 +265,7 @@ const Footer = () => {
             >
               <div className="relative inline-block group">
                 <span className="text-gr1 font-semibold relative z-10 group-hover:text-red-500">
-                FAQ
+                  FAQ
                 </span>
                 <div className="absolute inset-x-0 bottom-0 h-[2px] bg-gradient-to-r from-orange-400 to-red-500 transform origin-left scale-x-0 transition-transform ease-out duration-300 group-hover:scale-x-100"></div>
               </div>
@@ -363,31 +360,35 @@ const Footer = () => {
       <div className="flex flex-col items-center w-full  pt-8  pb-3 bg-gr2 gap-y-4 ">
         <div className="flex items-center gap-4">
           <a href="https://web.whatsapp.com/">
-          <div className="bg-white p-2 rounded-full cursor-pointer hover:scale-125 transition-all duration-700">
-            <img src="/img/wa.png" alt="home" className="w-5 h-5" />
-          </div>
+            <div className="bg-white p-2 rounded-full cursor-pointer hover:scale-125 transition-all duration-700">
+              <img src="/img/wa.png" alt="home" className="w-5 h-5" />
+            </div>
           </a>
           <a href="https://www.linkedin.com/feed/update/urn:li:activity:7080135501327863809">
-          <div className="bg-white p-2 rounded-full cursor-pointer hover:scale-125 transition duration-700">
-            <img src="/img/li.png" alt="home" className="w-5 h-5" />
-          </div>
+            <div className="bg-white p-2 rounded-full cursor-pointer hover:scale-125 transition duration-700">
+              <img src="/img/li.png" alt="home" className="w-5 h-5" />
+            </div>
           </a>
           <a href="mailto:intellsignals.entertainment@gmail.com">
-          <div className="bg-white p-2 rounded-full cursor-pointer hover:scale-125 transition duration-700">
-            <img src="/img/gm.png" alt="home" className="w-5 h-5" />
-          </div>
+            <div className="bg-white p-2 rounded-full cursor-pointer hover:scale-125 transition duration-700">
+              <img src="/img/gm.png" alt="home" className="w-5 h-5" />
+            </div>
           </a>
           <div className="bg-white p-2 rounded-full cursor-pointer hover:scale-125 transition duration-700">
             <img src="/img/tp.png" alt="home" className="w-5 h-5" />
           </div>
         </div>
         <div className="relative w-full">
-          <p className="text-white text-center">@copyright2023 IntellSignals.com</p>
+          <p className="text-white text-center">
+            @copyright2023 IntellSignals.com
+          </p>
           <p
             onclick={() => window.open("https://codezoone.netlify.app/")}
-            class="text-xs -mt-4 font-bold bg-secondary p-1 px-2 rounded-3xl relative md:absolute right-0 md:right-4 hover:cursor-pointer hover:font-bold text-center hover:bg-secondary hover:scale-x-105 hover:duration-300"
+            class="text-xs -mt-4 font-bold bg-white p-1 px-2 rounded-3xl relative md:absolute right-0 md:right-4 hover:cursor-pointer hover:font-bold text-center hover:panel-primary-bg hover:text-white hover:scale-x-105 hover:duration-300"
           >
-            <a href="https://codezoone.netlify.app/" target="_blank">Developed By CodeZone</a>
+            <a href="https://codezoone.netlify.app/" target="_blank">
+              Developed By CodeZone
+            </a>
           </p>
         </div>
       </div>
